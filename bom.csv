@@ -1,0 +1,17 @@
+id,scope,part,model,quantity,unit_krw,specification,source_url
+frame,air,가드 프레임,Flywoo FlyLens 85 V1.3 O3 Lite/O4 프레임 키트,1,33264,"85 mm diagonal, 2 in pusher, FC 25.5×25.5 mm",https://flywoo.net/products/flylens-85-frame-kit
+motors,air,모터,Flywoo ROBO 1003 14800KV 1–2S,4,18622,"6.6 mm mounting circle, 3×M1.4, shaft Ø1.5 mm",https://flywoo.net/products/robo-1003-14800kv-fpv-motor/
+props,air,프로펠러,"Gemfan Durable 2015 2엽, 1.5mm 축, 8개입",1,5311,"Ø50.8 mm, bore Ø1.5 mm, 4 CW + 4 CCW",https://flywoo.net/products/gemfan-durable-2015-2-blade-propeller-set-of-8-1-5mm-shaft
+fc,air,비행제어기 및 ESC,"MicoAir743v2-AIO-35A, ArduPilot 옵션",1,86508,"36×36×8 mm, 25.5×25.5 mm, Ø3 mm, 2–6S",https://store.micoair.com/product/micoair743v2-aio-35a/
+flow,air,바닥 광류·거리,MicoAir MTF-02P,1,21963,"21.6×16×6.5 mm, 5 V, UART",https://store.micoair.com/product/mtf-02p/
+compass,air,방향 기준 센서,"MicoAir MG-903, IST8310 내장 모듈",1,23946,"IST8310, 20×20×8 mm, 5 V, I²C",https://store.micoair.com/product/m9-m10-gps-module/
+wifi,air,PC 명령·상태 통신,MicoAir-WiFi-Link ESP32-C5,1,22615,"34.5×23.5×6 mm, 5 V, UART",https://store.micoair.com/product/micoair-wifi-link/
+camera,air,전면 카메라,"Seeed XIAO ESP32-S3 Sense, 113991115",1,25520,"113991115, 5 V, Wi-Fi 2.4 GHz",https://www.devicemart.co.kr/goods/view?no=14991199
+receiver,air,수동 조종 수신기,"RadioMaster RP1 ELRS 2.4GHz, KC 펌웨어",1,32000,"2.4 GHz ELRS KC, 5 V, CRSF UART",https://www.rcbank.co.kr/m2/goods/view.php?goodsno=89390
+mounting,air,장착 및 전원 소모품,"FC 방진 부싱, 마운트, XT30 리드, 배선·고정재, SS14 다이오드",1,15000,"Ø3 mm FC bushings, XT30 pigtail, wiring, brackets and SS14",
+sd,air,비행 로그 저장,"microSD 16–32GB, FAT32",1,8000,"16–32 GB, FAT32",
+usb_uart,air,센서 설정 도구,"CP2102 USB–UART, 3.3V 신호와 5V 전원",1,4000,"3.3 V UART logic, 5 V sensor supply",https://micoair.com/en/docs/sensors/sensors/mtf-02-02p-sensors
+battery,air,비행 배터리 2개 묶음,"Flywoo Explorer 2S 550mAh 80C LiHV, XT30UP, 2개입",1,27940,"2S LiHV, 550 mAh, XT30UP, 2-pack",https://flywoo.net/products/2pcs-explorer-550mah-hv-2s-80c-lipo-battery-for-micro-quad-xt30
+radio,ground,임시 조종기,"RadioMaster Pocket ELRS 2.4GHz, KC, Mode 2",1,129000,"2.4 GHz ELRS KC, Mode 2",https://www.linkdrone.co.kr/shop/goods/goods_view.php?goodsno=100061774
+radio_cells,ground,조종기 배터리,Pocket 호환 18650 셀,2,6200,Matching cells compatible with RadioMaster Pocket,https://www.linkdrone.co.kr/shop/goods/goods_view.php?goodsno=100061774
+charger,ground,비행 배터리 충전기,"ToolkitRC M4AC, XT30, 220V 호환 케이블",1,39920,"XT30, 2S balance port, 2S LiHV, 220 V AC",https://www.toolkitrc.com/product/m4ac/

@@ -1,0 +1,4 @@
+/.venv/
+__pycache__/
+/flylens85.usda
+/validation_report.json

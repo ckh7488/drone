@@ -1,0 +1,25 @@
+board,board_pin,device,device_pin,position_or_signal
+fc,VBAT,battery,XT30UP +,2S LiHV
+fc,GND,battery,XT30UP −,
+fc,M1,motors,3 phase wires,front right CCW
+fc,M2,motors,3 phase wires,rear left CCW
+fc,M3,motors,3 phase wires,front left CW
+fc,M4,motors,3 phase wires,rear right CW
+fc,5V,flow,5V,
+fc,GND,flow,GND,
+fc,TX4,flow,RX,115200 baud
+fc,RX4,flow,TX,115200 baud
+fc,5V,compass,5V,
+fc,GND,compass,GND,
+fc,SDA,compass,SDA,IST8310
+fc,SCL,compass,SCL,IST8310
+fc,5V,wifi,5V,
+fc,GND,wifi,GND,
+fc,TX1,wifi,RX,115200 baud
+fc,RX1,wifi,TX,115200 baud
+fc,5V,receiver,5V,
+fc,GND,receiver,GND,
+fc,TX6,receiver,RX,CRSF
+fc,RX6,receiver,TX,CRSF
+fc,5V,camera,5V,SS14 series diode cathode at camera
+fc,GND,camera,GND,

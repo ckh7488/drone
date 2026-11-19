@@ -1,0 +1,268 @@
+{
+  "title": "FlyLens 85 조립 배치",
+  "coordinate_system": "millimeters, +X right, +Y forward, +Z up",
+  "wheelbase_mm": 85,
+  "propeller_diameter_mm": 50.8,
+  "rotor_plane_mm": 6.2,
+  "rotor_centers_mm": [
+    [
+      -30.052038200428267,
+      30.052038200428267
+    ],
+    [
+      30.052038200428267,
+      30.052038200428267
+    ],
+    [
+      -30.052038200428267,
+      -30.052038200428267
+    ],
+    [
+      30.052038200428267,
+      -30.052038200428267
+    ]
+  ],
+  "camera_mm": [
+    0,
+    45.5,
+    32.1
+  ],
+  "small_parts_estimate_g": 8,
+  "parts": [
+    {
+      "id": "frame",
+      "label": "프레임 · 가드",
+      "model": "Flywoo FlyLens 85 V1.3 O3 Lite/O4",
+      "mass_g": 27,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "CenterPlate", "kind": "box", "center": [0, 0, 19.2], "size": [39, 47, 2], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "BatteryPlate", "kind": "box", "center": [0, -4, 42], "size": [35, 45, 1.8], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "CameraBridge", "kind": "box", "center": [0, 28.3, 21], "size": [14, 17, 1.6], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "CompassBridge", "kind": "box", "center": [0, -28.25, 21], "size": [14, 17.5, 1.6], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "CompassRiser", "kind": "box", "center": [0, -33, 22.3], "size": [14, 4, 1], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "ReceiverShelf", "kind": "box", "center": [23.5, -16.5, 26.2], "size": [16, 6, 1], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "Guard1", "kind": "ring", "center": [-30.052038200428267, 30.052038200428267, 11], "inner": 26.3, "outer": 28.1, "height": 18, "color": "#dbe6eb", "rotation": [0, 0, 0]},
+        {"name": "Arm1", "kind": "box", "center": [-15.927580246226983, 15.927580246226983, 19.3], "size": [35, 7.2, 2.6], "color": "#344451", "rotation": [0, 0, 135.0]},
+        {"name": "MotorMount1", "kind": "cylinder", "center": [-30.052038200428267, 30.052038200428267, 19.3], "radius": 8.3, "height": 2.6, "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "LandingFoot1", "kind": "box", "center": [-49.58586303070664, 49.58586303070664, 1.5], "size": [5, 6, 3], "color": "#182730", "rotation": [0, 0, 135.0]},
+        {"name": "Guard2", "kind": "ring", "center": [30.052038200428267, 30.052038200428267, 11], "inner": 26.3, "outer": 28.1, "height": 18, "color": "#dbe6eb", "rotation": [0, 0, 0]},
+        {"name": "Arm2", "kind": "box", "center": [15.927580246226983, 15.927580246226983, 19.3], "size": [35, 7.2, 2.6], "color": "#344451", "rotation": [0, 0, 45.0]},
+        {"name": "MotorMount2", "kind": "cylinder", "center": [30.052038200428267, 30.052038200428267, 19.3], "radius": 8.3, "height": 2.6, "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "LandingFoot2", "kind": "box", "center": [49.58586303070664, 49.58586303070664, 1.5], "size": [5, 6, 3], "color": "#182730", "rotation": [0, 0, 45.0]},
+        {"name": "Guard3", "kind": "ring", "center": [-30.052038200428267, -30.052038200428267, 11], "inner": 26.3, "outer": 28.1, "height": 18, "color": "#dbe6eb", "rotation": [0, 0, 0]},
+        {"name": "Arm3", "kind": "box", "center": [-15.927580246226983, -15.927580246226983, 19.3], "size": [35, 7.2, 2.6], "color": "#344451", "rotation": [0, 0, -135.0]},
+        {"name": "MotorMount3", "kind": "cylinder", "center": [-30.052038200428267, -30.052038200428267, 19.3], "radius": 8.3, "height": 2.6, "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "LandingFoot3", "kind": "box", "center": [-49.58586303070664, -49.58586303070664, 1.5], "size": [5, 6, 3], "color": "#182730", "rotation": [0, 0, -135.0]},
+        {"name": "Guard4", "kind": "ring", "center": [30.052038200428267, -30.052038200428267, 11], "inner": 26.3, "outer": 28.1, "height": 18, "color": "#dbe6eb", "rotation": [0, 0, 0]},
+        {"name": "Arm4", "kind": "box", "center": [15.927580246226983, -15.927580246226983, 19.3], "size": [35, 7.2, 2.6], "color": "#344451", "rotation": [0, 0, -45.0]},
+        {"name": "MotorMount4", "kind": "cylinder", "center": [30.052038200428267, -30.052038200428267, 19.3], "radius": 8.3, "height": 2.6, "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "LandingFoot4", "kind": "box", "center": [49.58586303070664, -49.58586303070664, 1.5], "size": [5, 6, 3], "color": "#182730", "rotation": [0, 0, -45.0]},
+        {"name": "Pillar1", "kind": "cylinder", "center": [-15.5, 17, 31], "radius": 1.6, "height": 23.5, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Pillar2", "kind": "cylinder", "center": [15.5, 17, 31], "radius": 1.6, "height": 23.5, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Pillar3", "kind": "cylinder", "center": [-15.5, -17, 31], "radius": 1.6, "height": 23.5, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Pillar4", "kind": "cylinder", "center": [15.5, -17, 31], "radius": 1.6, "height": 23.5, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "FlowTab1", "kind": "box", "center": [-6, 0, 15.175], "size": [3, 10, 6.05], "color": "#344451", "rotation": [0, 0, 0]},
+        {"name": "FlowTab2", "kind": "box", "center": [6, 0, 15.175], "size": [3, 10, 6.05], "color": "#344451", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "motors",
+      "label": "모터 4개",
+      "model": "Flywoo ROBO 1003 14800KV",
+      "mass_g": 13.2,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "Can1", "kind": "cylinder", "center": [-30.052038200428267, 30.052038200428267, 13.6], "radius": 6.75, "height": 9.2, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Cap1", "kind": "cylinder", "center": [-30.052038200428267, 30.052038200428267, 17.9], "radius": 6.25, "height": 0.9, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Shaft1", "kind": "cylinder", "center": [-30.052038200428267, 30.052038200428267, 7.2], "radius": 0.75, "height": 5.5, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "Can2", "kind": "cylinder", "center": [30.052038200428267, 30.052038200428267, 13.6], "radius": 6.75, "height": 9.2, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Cap2", "kind": "cylinder", "center": [30.052038200428267, 30.052038200428267, 17.9], "radius": 6.25, "height": 0.9, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Shaft2", "kind": "cylinder", "center": [30.052038200428267, 30.052038200428267, 7.2], "radius": 0.75, "height": 5.5, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "Can3", "kind": "cylinder", "center": [-30.052038200428267, -30.052038200428267, 13.6], "radius": 6.75, "height": 9.2, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Cap3", "kind": "cylinder", "center": [-30.052038200428267, -30.052038200428267, 17.9], "radius": 6.25, "height": 0.9, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Shaft3", "kind": "cylinder", "center": [-30.052038200428267, -30.052038200428267, 7.2], "radius": 0.75, "height": 5.5, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "Can4", "kind": "cylinder", "center": [30.052038200428267, -30.052038200428267, 13.6], "radius": 6.75, "height": 9.2, "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Cap4", "kind": "cylinder", "center": [30.052038200428267, -30.052038200428267, 17.9], "radius": 6.25, "height": 0.9, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Shaft4", "kind": "cylinder", "center": [30.052038200428267, -30.052038200428267, 7.2], "radius": 0.75, "height": 5.5, "color": "#c69450", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "props",
+      "label": "프로펠러 4개",
+      "model": "Gemfan Durable 2015 2엽",
+      "mass_g": 2,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "Blade1", "kind": "box", "center": [-30.052038200428267, 30.052038200428267, 6.2], "size": [50.8, 5.5, 1.15], "color": "#708c98", "rotation": [0, 0, 35]},
+        {"name": "Hub1", "kind": "cylinder", "center": [-30.052038200428267, 30.052038200428267, 6.2], "radius": 3.5, "height": 2.6, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Blade2", "kind": "box", "center": [30.052038200428267, 30.052038200428267, 6.2], "size": [50.8, 5.5, 1.15], "color": "#708c98", "rotation": [0, 0, -35]},
+        {"name": "Hub2", "kind": "cylinder", "center": [30.052038200428267, 30.052038200428267, 6.2], "radius": 3.5, "height": 2.6, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Blade3", "kind": "box", "center": [-30.052038200428267, -30.052038200428267, 6.2], "size": [50.8, 5.5, 1.15], "color": "#708c98", "rotation": [0, 0, -35]},
+        {"name": "Hub3", "kind": "cylinder", "center": [-30.052038200428267, -30.052038200428267, 6.2], "radius": 3.5, "height": 2.6, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Blade4", "kind": "box", "center": [30.052038200428267, -30.052038200428267, 6.2], "size": [50.8, 5.5, 1.15], "color": "#708c98", "rotation": [0, 0, 35]},
+        {"name": "Hub4", "kind": "cylinder", "center": [30.052038200428267, -30.052038200428267, 6.2], "radius": 3.5, "height": 2.6, "color": "#182730", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "fc",
+      "label": "비행 제어기 · ESC",
+      "model": "MicoAir743v2-AIO-35A",
+      "mass_g": 10,
+      "origin": [
+        0,
+        0,
+        27
+      ],
+      "yaw_deg": 45,
+      "shapes": [
+        {"name": "Board", "kind": "box", "center": [0, 0, -2.8], "size": [36, 36, 2.4], "color": "#1d6761", "rotation": [0, 0, 0]},
+        {"name": "Controller", "kind": "box", "center": [-3.5, 1, 1.2], "size": [12, 12, 5.6], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "USB", "kind": "box", "center": [-15, 3, -0.65], "size": [7.5, 8.5, 4], "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "SD", "kind": "box", "center": [2, -13, -0.8], "size": [13, 7.6, 3.6], "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "HeadingMark", "kind": "box", "center": [8.8, 8.8, -1.45], "size": [8, 0.85, 0.12], "color": "#e1edeb", "rotation": [0, 0, 45]},
+        {"name": "HeadingMarkL", "kind": "box", "center": [11, 12, -1.45], "size": [0.83, 3.2, 0.12], "color": "#e1edeb", "rotation": [0, 0, 0]},
+        {"name": "HeadingMarkR", "kind": "box", "center": [12.2, 12, -1.45], "size": [3.2, 0.83, 0.12], "color": "#e1edeb", "rotation": [0, 0, 0]},
+        {"name": "HoleMarker1", "kind": "ring", "center": [-12.75, -12.75, -1.5], "inner": 1.5, "outer": 2.5, "height": 0.25, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "HoleMarker2", "kind": "ring", "center": [-12.75, 12.75, -1.5], "inner": 1.5, "outer": 2.5, "height": 0.25, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "HoleMarker3", "kind": "ring", "center": [12.75, -12.75, -1.5], "inner": 1.5, "outer": 2.5, "height": 0.25, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "HoleMarker4", "kind": "ring", "center": [12.75, 12.75, -1.5], "inner": 1.5, "outer": 2.5, "height": 0.25, "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "FrontPad0", "kind": "box", "center": [-8, 15.9, -1.49], "size": [2.2, 2.8, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "RearPad0", "kind": "box", "center": [-8, -16.2, -1.49], "size": [2.2, 2.5, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "FrontPad1", "kind": "box", "center": [-4, 15.9, -1.49], "size": [2.2, 2.8, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "RearPad1", "kind": "box", "center": [-4, -16.2, -1.49], "size": [2.2, 2.5, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "FrontPad2", "kind": "box", "center": [0, 15.9, -1.49], "size": [2.2, 2.8, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "RearPad2", "kind": "box", "center": [0, -16.2, -1.49], "size": [2.2, 2.5, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "FrontPad3", "kind": "box", "center": [4, 15.9, -1.49], "size": [2.2, 2.8, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "RearPad3", "kind": "box", "center": [4, -16.2, -1.49], "size": [2.2, 2.5, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "FrontPad4", "kind": "box", "center": [8, 15.9, -1.49], "size": [2.2, 2.8, 0.14], "color": "#c69450", "rotation": [0, 0, 0]},
+        {"name": "RearPad4", "kind": "box", "center": [8, -16.2, -1.49], "size": [2.2, 2.5, 0.14], "color": "#c69450", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "flow",
+      "label": "바닥 광류 · 거리",
+      "model": "MicoAir MTF-02P",
+      "mass_g": 1.5,
+      "origin": [
+        0,
+        0,
+        8.9
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "SensorBody", "kind": "box", "center": [0, 0, 0], "size": [21.6, 16, 6.5], "color": "#476ab0", "rotation": [0, 0, 0]},
+        {"name": "FlowLens", "kind": "cylinder", "center": [-4.9, -1.3, -3.3], "radius": 2.8, "height": 1.1, "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "RangeWindow", "kind": "box", "center": [4.5, 1.3, -3.43], "size": [4.2, 3.9, 0.5], "color": "#a3ccd4", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "전면 카메라",
+      "model": "Seeed XIAO ESP32-S3 Sense",
+      "mass_g": 5,
+      "origin": [
+        0,
+        37,
+        31
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "Board", "kind": "box", "center": [0, -3.8, 0], "size": [21, 1.6, 17.8], "color": "#287c54", "rotation": [0, 0, 0]},
+        {"name": "CameraBlock", "kind": "box", "center": [0, 0.7, 1.1], "size": [13, 9, 12], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "LensBarrel", "kind": "cylinder", "center": [0, 6, 1.1], "radius": 4.5, "height": 3, "color": "#21343c", "rotation": [-90, 0, 0]},
+        {"name": "Glass", "kind": "cylinder", "center": [0, 7.6, 1.1], "radius": 3.2, "height": 0.55, "color": "#517b9c", "rotation": [-90, 0, 0]},
+        {"name": "USBTail", "kind": "box", "center": [0, -4.55, -6], "size": [8.8, 6, 3.4], "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "CameraSaddle", "kind": "box", "center": [0, -2.1, -8.2], "size": [24, 10, 2], "color": "#344451", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "wifi",
+      "label": "PC 통신 모듈",
+      "model": "MicoAir-WiFi-Link",
+      "mass_g": 5.5,
+      "origin": [
+        0,
+        -2,
+        36
+      ],
+      "yaw_deg": 90,
+      "shapes": [
+        {"name": "Carrier", "kind": "box", "center": [0, 0, -2], "size": [34.5, 23.5, 2], "color": "#23767c", "rotation": [0, 0, 0]},
+        {"name": "RadioShield", "kind": "box", "center": [-2, 1.5, 0.2], "size": [19, 14, 3.1], "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "USB", "kind": "box", "center": [15.5, 0, 0.15], "size": [4.2, 8.6, 4.2], "color": "#8094a5", "rotation": [0, 0, 0]},
+        {"name": "Antenna", "kind": "box", "center": [-13, 6.3, -0.85], "size": [5, 9.6, 1.4], "color": "#182730", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "compass",
+      "label": "외장 나침반",
+      "model": "MicoAir MG-903 · IST8310",
+      "mass_g": 7,
+      "origin": [
+        0,
+        -42,
+        28
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "CompassCase", "kind": "box", "center": [0, 0, 0], "size": [20, 20, 8], "color": "#355871", "rotation": [0, 0, 0]},
+        {"name": "AntennaPatch", "kind": "box", "center": [0, 0, 4.08], "size": [13, 13, 0.3], "color": "#d8e4de", "rotation": [0, 0, 0]},
+        {"name": "CompassSaddle", "kind": "box", "center": [0, 4, -4.6], "size": [22, 20, 1.2], "color": "#344451", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "receiver",
+      "label": "수동 조종 수신기",
+      "model": "RadioMaster RP1 ELRS · KC",
+      "mass_g": 2.2,
+      "origin": [
+        25.7,
+        -14.5,
+        28
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "ReceiverBoard", "kind": "box", "center": [0, 0, -0.65], "size": [13, 11, 1.3], "color": "#426f4a", "rotation": [0, 0, 0]},
+        {"name": "Shield", "kind": "box", "center": [0, 0.8, 0.8], "size": [9.5, 7.2, 1.6], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Antenna", "kind": "box", "center": [12, -6.4, 1.5], "size": [1.3, 21, 1.35], "color": "#182730", "rotation": [0, 0, 0]}
+      ]
+    },
+    {
+      "id": "battery",
+      "label": "비행 배터리",
+      "model": "Flywoo Explorer 2S 550mAh LiHV",
+      "mass_g": 26.5,
+      "origin": [
+        0,
+        -4.7,
+        49.4
+      ],
+      "yaw_deg": 0,
+      "shapes": [
+        {"name": "Pack", "kind": "box", "center": [0, 0, 0], "size": [18.2, 49, 13], "color": "#aebdca", "rotation": [0, 0, 0]},
+        {"name": "EndCap", "kind": "box", "center": [0, -23.8, 0.15], "size": [18.4, 2.8, 13.3], "color": "#475b66", "rotation": [0, 0, 0]},
+        {"name": "RatingLabel", "kind": "box", "center": [0, 3.7, 6.58], "size": [16, 19, 0.23], "color": "#416988", "rotation": [0, 0, 0]},
+        {"name": "Strap", "kind": "box", "center": [0, -0.3, 6.8], "size": [20, 6.8, 0.7], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "StrapL", "kind": "box", "center": [-9.4, -0.3, 0.45], "size": [0.72, 6.8, 13.9], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "StrapR", "kind": "box", "center": [9.4, -0.3, 0.45], "size": [0.72, 6.8, 13.9], "color": "#182730", "rotation": [0, 0, 0]},
+        {"name": "Plug", "kind": "box", "center": [3.3, -28, -3.1], "size": [8, 5, 4.6], "color": "#cc9c3d", "rotation": [0, 0, 0]}
+      ]
+    }
+  ]
+}
