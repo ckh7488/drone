@@ -19,6 +19,8 @@ FlyLens 85 V1.3 O3 Lite/O4 · 2S 푸셔 · ArduCopter 4.7.2 · 전면 MJPEG
 
 PC 제어는 Guided에서 `SET_POSITION_TARGET_LOCAL_NED`, 프레임 `LOCAL_NED`, 마스크 `1479`를 주기적으로 보낸다. `vx/vy`는 방 좌표를 NED로 변환한 m/s, `vz`는 하강이 양수인 m/s, `yaw_rate`는 rad/s다. 중립은 네 값이 0이다. 이후 손 기울기·높이 레버·회전 다이얼도 같은 입력을 사용한다. [MAVLink 명령](https://ardupilot.org/dev/docs/copter-commands-in-guided-mode.html)
 
+2S 저전압 기준은 순정 설정의 셀당 3.5/3.3 V를 적용한 7.0/6.6 V다. 저전압 시 Land로 전환한다. [Flywoo 설정](https://cdn-files.myshopline.com/file/store/1673593876355/s85-o4pro-bf451-flywoof405s-aio-elrs.pdf) · [ArduPilot 배터리 페일세이프](https://ardupilot.org/copter/docs/failsafe-battery.html)
+
 ## 물리 검사
 
 ```sh
